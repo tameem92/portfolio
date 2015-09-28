@@ -537,16 +537,17 @@ textarea.form-control {
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-nav > li > a,
 .navbar-custom .navbar-nav .dropdown-menu > li > a {
-	font-size: 11px;
+	font-size: 13px;
 	letter-spacing: 3px;
-	color: #222;
+	color: #ffffff;
 }
 
 .navbar-custom .nav li.active,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus,
 .navbar-custom .navbar-nav > li.active a {
-	background: none;
+	background-color: #ffffff;
+	opacity: 0.6;
 	outline: 0;
 	color: #E7746F;
 }
@@ -967,5 +968,15 @@ figure.effect-bubba:hover p {
 		width: 80px;
 	}
 
+}
+
+#undefined-sticky-wrapper > header > nav {
+	background-color: #FB9C44;
+    background-image: linear-gradient(to left, #FB9C44, #FC4831);
+    color: #ffffff;
+}
+
+.navbar-custom .navbar-brand {
+	color: #ffffff;
 }
 
